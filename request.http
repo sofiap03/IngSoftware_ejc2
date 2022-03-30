@@ -73,8 +73,8 @@ POST http://localhost:5000/api/v1/superheroes_v2/superhero HTTP/1.1
 Content-Type: application/json
 
 {
-  "superhero":"Superman",
-  "realname":"Spiderman",
+  "superhero":"Wolverine",
+  "realname":"Wol",
   "superpower":"Be "
 }
 ###
@@ -87,7 +87,7 @@ GET http://localhost:5000/api/v1/superheroes_v2/623b2454de46bc4fd18d3203 HTTP/1.
 PUT http://localhost:5000/api/v1/superheroes_v2/623b284ecbfb9c0a2181972f HTTP/1.1
 Content-Type: application/json
 {
-  "superhero":"Batman Bruce"
+  "superhero":"Batman Bru"
 }
 ###
 DELETE http://localhost:5000/api/v1/superheroes_v2/623b284ecbfb9c0a2181972f HTTP/1.1
